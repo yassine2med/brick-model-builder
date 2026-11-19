@@ -1,0 +1,17 @@
+id,label,type,part_of,location,feeds,point_of
+bldg_a,Building A,Building,,,,
+floor_1,Floor 1,Floor,bldg_a,,,
+floor_2,Floor 2,Floor,bldg_a,,,
+room_101,Room 101,Room,floor_1,,,
+room_102,Room 102,Room,floor_1,,,
+room_201,Room 201,Room,floor_2,,,
+ahu_1,AHU-1,AHU,,floor_1,vav_101;vav_102;vav_201,
+vav_101,VAV-101,VAV,,room_101,room_101,
+vav_102,VAV-102,VAV,,room_102,room_102,
+vav_201,VAV-201,VAV,,room_201,room_201,
+chlr_1,Chiller 1,Chiller,,floor_1,ahu_1,
+pump_1,CHW Pump 1,Pump,,floor_1,chlr_1,
+sat_ahu_1,AHU-1 Supply Air Temp,Supply Air Temp Sensor,,,,ahu_1
+zt_101,Room 101 Temp,Zone Temp Sensor,,,,vav_101
+zsp_101,Room 101 Temp Setpoint,Zone Temp Setpoint,,,,vav_101
+zt_102,Room 102 Temp,Zone Temp Sensor,,,,vav_102
