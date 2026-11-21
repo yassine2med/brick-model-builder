@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" alt="brick-model-builder" width="100%"></p>
+
 # brick-model-builder
 
 [![CI](https://github.com/yassine2med/brick-model-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/brick-model-builder/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
